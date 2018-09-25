@@ -65,8 +65,8 @@ class Assets extends React.Component {
   render() {
     const {formatMessage} = this.props.intl
     const header = titleWithJSONButton(
-      formatMessage({id: 'assets'}),
-      METADATA_PATH
+     
+       
     )
 
     // if we have a code from /asset/<code> then show only assets with code
