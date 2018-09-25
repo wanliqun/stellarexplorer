@@ -21,10 +21,7 @@ export default {
     'apay.io',
     'ETH'
   ),
-  GCGJVS7JZ7AP54H5GJIDNKGDDCOQ34H6NZBV7VCBLW4VCD4JOWERABA5: issuer(
-    'ripplefox.com',
-    'CNY'
-  ),
+ 
   GDW3CNKSP5AOTDQ2YCKNGC6L65CE4JDX3JS5BV427OB54HCF2J4PUEVG: issuer(
     'funtracker.site',
     'FUNT'
