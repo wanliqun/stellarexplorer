@@ -7,7 +7,7 @@ import {FormattedMessage, injectIntl} from 'react-intl'
 import {Link} from 'react-router-dom'
 import PropTypes from 'prop-types'
 import has from 'lodash/has'
-
+import logoImg from '../img/logo.png'
 import AccountLink from './shared/AccountLink'
 import BackendResourceBadgeButton from './shared/BackendResourceBadgeButton'
 import ClipboardCopy from './shared/ClipboardCopy'
@@ -27,7 +27,7 @@ const Asset = ({code, domain, issuer}) => {
     <tr className="directoryRow">
       <td>
         <a href={anchor.website} target="_blank">
-          <Logo name={domain} src={anchor.logo} />
+          <Logo name={domain} src={logoImg} />
         </a>
       </td>
       <td style={{color: 'white'}}>{code}</td>
