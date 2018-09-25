@@ -2,9 +2,8 @@ import sdk from './sdk'
 import networks from './networks'
 
 export const defaultNetworkAddresses = {
-  public: 'https://horizon.stellar.org',
-  test: 'https://horizon-testnet.stellar.org',
-  //local: 'http://localhost:8000',
+  public: 'http://45.79.87.95:8000',
+  test: 'http://45.79.87.95:8000',
   local: 'http://45.79.87.95:8000',
 }
 
