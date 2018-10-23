@@ -2,9 +2,9 @@ import sdk from './sdk'
 import networks from './networks'
 
 export const defaultNetworkAddresses = {
-  public: 'http://45.79.87.95:8000',
-  test: 'http://45.79.87.95:8000',
-  local: 'http://45.79.87.95:8000',
+  public: 'http://106.75.66.176:8000',
+  test: 'http://106.75.66.176:8000',
+  local: 'http://106.75.66.176:8000',
 }
 
 /**

@@ -4,7 +4,7 @@ import Modal from 'react-bootstrap/lib/Modal'
 import {FormattedMessage} from 'react-intl'
 
 const networkAddresses = [
-  'http://45.79.87.95:8000',
+  'http://106.75.66.176:8000',
   'https://stellar-api.wancloud.io',
   'https://api.chinastellar.com',
 ]
